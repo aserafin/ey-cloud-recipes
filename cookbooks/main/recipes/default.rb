@@ -41,13 +41,13 @@
 #require_recipe "mongodb"
 
 #uncomment to run the resque recipe
-# require_recipe "resque"
+require_recipe "resque"
 
 #uncomment to run redis.yml recipe
-# require_recipe "redis-yml"
+require_recipe "redis-yml"
 
 #uncomment to run the resque-scheduler recipe
-# require_recipe "resque-scheduler"
+require_recipe "resque-scheduler"
 
 #uncomment to run the redis recipe
 #require_recipe "redis"
@@ -117,14 +117,13 @@
   # PostGis 1.5 (use with versions 9.0, 9.1, 9.2)
   # postgresql9_postgis "dbname"
 
-  # PostGis 2.0 (use with version 9.2)
-  # postgresql9_postgis2 "dbname"
+  #postgresql9_postgis2 "dateapp"
   # postgresql9_seg "dbname"
   # postgresql9_sslinfo "dbname"
   # postgresql9_tablefunc "dbname"
   # postgresql9_test_parser "dbname"
   # postgresql9_unaccent "dbname"
-  # postgresql9_uuid_ossp "dbname"
+  #postgresql9_uuid_ossp "dateapp"
 
 
   # 9.1 and 9.2 Extensions
